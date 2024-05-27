@@ -109,7 +109,6 @@ We added the following layers:
 * ReLU
 * Fully-Connected 64x2
 
-Calculation of # parameters:
 Added params = (1000*256+256) + (256*64+64) + (64*2+2) = 274,834
 
 ## Loss / Accuracy
@@ -219,6 +218,8 @@ The archietcture of the model is based on a block called MBConvBlock. The MBConv
   <img src="figures/fakes_dataset_bonus_Fake_Image_grad_cam.png", width="400">
 </div>
 
-Results:
-Your bonus model test accuracy: 93.28571428571429
-Your bonus model number of parameters: 5732546
+# Results
+
+The bonus model reached high performance with low number of parameters.
+* The bonus model test accuracy: 93.28%
+* The bonus model number of parameters: 5,732,546
